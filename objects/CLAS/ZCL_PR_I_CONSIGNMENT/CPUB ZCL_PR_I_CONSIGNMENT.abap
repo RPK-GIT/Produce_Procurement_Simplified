@@ -1,0 +1,1 @@
+CLASS zcl_pr_i_consignment DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zpr_i_consignment.

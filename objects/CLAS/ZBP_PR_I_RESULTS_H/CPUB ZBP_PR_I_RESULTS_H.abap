@@ -1,0 +1,1 @@
+CLASS zbp_pr_i_results_h DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zpr_i_results_h.

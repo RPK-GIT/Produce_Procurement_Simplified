@@ -1,0 +1,1 @@
+CLASS zcl_pr_i_header DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zpr_i_header.
