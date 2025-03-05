@@ -83,7 +83,7 @@ CLASS lhc_zpr_i_results_h IMPLEMENTATION.
       LOOP AT ls_data-%target INTO DATA(ls_characs).
         lv_wtktno = ls_characs-wtktno.
         lv_item = ls_characs-wtktitm.
-        SELECT SINGLE * FROM zpr_tb_wt_it WHERE wtktno =  @lv_wtktno
+        SELECT SINGLE * FROM zpr_tb_wt_it WHERE wtktno =  @lv_wtktno                                        "EC NEEDED
                                               AND wtktitm =  @lv_item INTO @DATA(ls_item_data).
 * Get inspection lot characteristic
         SELECT SINGLE * FROM i_inspectioncharacteristic WHERE inspectionlot = @ls_item_data-prueflos
